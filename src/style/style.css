@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Orbitron";
+    background-color: black;
+
+}
+
+
+p,h1,h2,h3{
+    color: white;
+}
+
+
+#result {
+    border: 1px solid purple;
+    border-radius: 20px;
+    width: 40%;
+    height: 10vh;
+    font-size: xx-large;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1%;
+    color: white;
+    box-shadow: 0px 0px 15px purple;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    gap: 2%;
+
+}
+
+
+.buttonsSign {
+    font-size: xx-large;
+    background-color: rgba(53, 11, 87, 1);
+    color: white;
+    width: 20%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.buttonsNumber {
+    font-size: xx-large;
+    background-color: rgba(27, 4, 46, 1);
+    color: white;
+    width: 20%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+#reset {
+    font-size: xx-large;
+    background-color: purple;
+    color: white;
+    width: 20%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+#equal {
+    font-size: xx-large;
+    background-color:rgba(53, 11, 87, 1);
+    color: white;
+    width: 20%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+#delete {
+    font-size: xx-large;
+    background-color: purple;
+    color: white;
+    width: 75%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.buttonsSign:hover,
+#equal:hover,
+#delete:hover,
+.buttonsNumber:hover,
+#reset:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+@media(max-width : 992px) {
+    #results, .ligne{
+        width: 70%;
+    }
+}
+
+@media(max-width : 768px) {
+    #results, .ligne{
+        width: 80%;
+    }
+}
