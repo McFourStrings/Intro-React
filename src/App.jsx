@@ -4,8 +4,11 @@ import './App.css'
 // import Exo2 from './pages/Exo2';
 // import Exo3 from './pages/Exo3';
 // import Exo4 from './pages/Exo4';
+// import Exo5 from './pages/Exo5';
+// import CompteurAmeliore from './pages/CompteurAmeliore';
+import ToDo from './pages/ToDo';
 
-import Exo5 from './pages/Exo5';
+
 
 function App() {
   // variable, setVariable
@@ -32,9 +35,10 @@ function App() {
       {/* <Exo1/>  */}
       {/* <Exo2/> */}
       {/* <Exo3/> */}
-      {/* <Exo4/> */}
-      
-      <Exo5/>
+      {/* <Exo4/> */}      
+      {/* <Exo5/>       */}
+      {/* <CompteurAmeliore/> */}
+      <ToDo/>
     </>
   )
 }
