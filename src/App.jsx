@@ -6,7 +6,11 @@ import './App.css'
 // import Exo4 from './pages/Exo4';
 // import Exo5 from './pages/Exo5';
 // import CompteurAmeliore from './pages/CompteurAmeliore';
-import ToDo from './pages/ToDo';
+// import ToDo from './pages/ToDo';
+//  import CarteUtilisateur from './pages/CarteUtilisateur';
+ import Galerie from './pages/Galerie';
+// import Buttons from './pages/Buttons';
+
 
 
 
@@ -38,7 +42,10 @@ function App() {
       {/* <Exo4/> */}      
       {/* <Exo5/>       */}
       {/* <CompteurAmeliore/> */}
-      <ToDo/>
+      {/* <ToDo/> */}
+      {/* <CarteUtilisateur/> */}
+      <Galerie/>
+      {/* <Buttons/> */}
     </>
   )
 }
