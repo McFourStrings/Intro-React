@@ -8,8 +8,15 @@ import './App.css'
 // import CompteurAmeliore from './pages/CompteurAmeliore';
 // import ToDo from './pages/ToDo';
 //  import CarteUtilisateur from './pages/CarteUtilisateur';
- import Galerie from './pages/Galerie';
+//  import Galerie from './pages/Galerie';
+// import Chronometre from './pages/Chronometre';
 // import Buttons from './pages/Buttons';
+// import ContactForm from './pages/ContactForm';
+import ContactFormCorrect from './pages/ContactFormCorrect';
+
+
+
+
 
 
 
@@ -44,8 +51,11 @@ function App() {
       {/* <CompteurAmeliore/> */}
       {/* <ToDo/> */}
       {/* <CarteUtilisateur/> */}
-      <Galerie/>
+      {/* <Galerie/> */}
       {/* <Buttons/> */}
+      {/* <Chronometre/> */}
+      {/* <ContactForm/> */}
+      <ContactFormCorrect/>
     </>
   )
 }
